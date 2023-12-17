@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1360cf84e633f994ebafbb38c986381d, type: 3}
+  m_Name: ReactionsData
+  m_EditorClassIdentifier: 
+  _reactions:
+  - _firstReagent: {fileID: 11400000, guid: d8b83af740ba1bc4fb69d2ce93943d99, type: 2}
+    _secondReagent: {fileID: 11400000, guid: 73d30ad47b008e145b1f034fbf9b1e7d, type: 2}
+    _product: H2O
+    _productEnvironment: 0
+  - _firstReagent: {fileID: 11400000, guid: d8b83af740ba1bc4fb69d2ce93943d99, type: 2}
+    _secondReagent: {fileID: 11400000, guid: aa1be7bb1ffb9304e8c56d0bb0ff88c2, type: 2}
+    _product: HCl
+    _productEnvironment: 2
+  - _firstReagent: {fileID: 11400000, guid: d8b83af740ba1bc4fb69d2ce93943d99, type: 2}
+    _secondReagent: {fileID: 11400000, guid: 043216a87322f554993ca07873f5a4b3, type: 2}
+    _product: NaOH
+    _productEnvironment: 1
+  - _firstReagent: {fileID: 11400000, guid: d8b83af740ba1bc4fb69d2ce93943d99, type: 2}
+    _secondReagent: {fileID: 11400000, guid: 271e792dc91a27c4e805d41bf4c1428b, type: 2}
+    _product: "Cu + H2SO4 \u200B   "
+    _productEnvironment: 2
+  - _firstReagent: {fileID: 11400000, guid: d8b83af740ba1bc4fb69d2ce93943d99, type: 2}
+    _secondReagent: {fileID: 11400000, guid: 5da76782db1584e4c93fd43e1fb91aa0, type: 2}
+    _product: H2S+H2O
+    _productEnvironment: 2
+  - _firstReagent: {fileID: 11400000, guid: d8b83af740ba1bc4fb69d2ce93943d99, type: 2}
+    _secondReagent: {fileID: 11400000, guid: e66b688a5f09bfb49998aa2e17b40e8e, type: 2}
+    _product: NaH+HCl
+    _productEnvironment: 2
+  - _firstReagent: {fileID: 11400000, guid: 73d30ad47b008e145b1f034fbf9b1e7d, type: 2}
+    _secondReagent: {fileID: 11400000, guid: aa1be7bb1ffb9304e8c56d0bb0ff88c2, type: 2}
+    _product: Cl2O
+    _productEnvironment: 2
+  - _firstReagent: {fileID: 11400000, guid: 73d30ad47b008e145b1f034fbf9b1e7d, type: 2}
+    _secondReagent: {fileID: 11400000, guid: 043216a87322f554993ca07873f5a4b3, type: 2}
+    _product: NaO2 + H2O
+    _productEnvironment: 1
+  - _firstReagent: {fileID: 11400000, guid: 73d30ad47b008e145b1f034fbf9b1e7d, type: 2}
+    _secondReagent: {fileID: 11400000, guid: 271e792dc91a27c4e805d41bf4c1428b, type: 2}
+    _product: "Cu(OH)2 + SO2 \u200B  "
+    _productEnvironment: 1
+  - _firstReagent: {fileID: 11400000, guid: 73d30ad47b008e145b1f034fbf9b1e7d, type: 2}
+    _secondReagent: {fileID: 11400000, guid: 5da76782db1584e4c93fd43e1fb91aa0, type: 2}
+    _product: H2S2O8
+    _productEnvironment: 2
+  - _firstReagent: {fileID: 11400000, guid: 73d30ad47b008e145b1f034fbf9b1e7d, type: 2}
+    _secondReagent: {fileID: 11400000, guid: e66b688a5f09bfb49998aa2e17b40e8e, type: 2}
+    _product: NaOCl
+    _productEnvironment: 2
+  - _firstReagent: {fileID: 11400000, guid: aa1be7bb1ffb9304e8c56d0bb0ff88c2, type: 2}
+    _secondReagent: {fileID: 11400000, guid: 043216a87322f554993ca07873f5a4b3, type: 2}
+    _product: NaCl + H2O
+    _productEnvironment: 0
+  - _firstReagent: {fileID: 11400000, guid: aa1be7bb1ffb9304e8c56d0bb0ff88c2, type: 2}
+    _secondReagent: {fileID: 11400000, guid: 271e792dc91a27c4e805d41bf4c1428b, type: 2}
+    _product: "CuCl2 \u200B+ H2SO4 \u200B"
+    _productEnvironment: 2
+  - _firstReagent: {fileID: 11400000, guid: aa1be7bb1ffb9304e8c56d0bb0ff88c2, type: 2}
+    _secondReagent: {fileID: 11400000, guid: 5da76782db1584e4c93fd43e1fb91aa0, type: 2}
+    _product: "2HCl + SO2 \u200B+ H2O"
+    _productEnvironment: 2
+  - _firstReagent: {fileID: 11400000, guid: aa1be7bb1ffb9304e8c56d0bb0ff88c2, type: 2}
+    _secondReagent: {fileID: 11400000, guid: e66b688a5f09bfb49998aa2e17b40e8e, type: 2}
+    _product: NaCl2
+    _productEnvironment: 0
+  - _firstReagent: {fileID: 11400000, guid: 043216a87322f554993ca07873f5a4b3, type: 2}
+    _secondReagent: {fileID: 11400000, guid: 271e792dc91a27c4e805d41bf4c1428b, type: 2}
+    _product: Cu(OH)2 + Na2SO4
+    _productEnvironment: 1
+  - _firstReagent: {fileID: 11400000, guid: 043216a87322f554993ca07873f5a4b3, type: 2}
+    _secondReagent: {fileID: 11400000, guid: 5da76782db1584e4c93fd43e1fb91aa0, type: 2}
+    _product: 'Na2SO4 + 2H2O '
+    _productEnvironment: 0
+  - _firstReagent: {fileID: 11400000, guid: 043216a87322f554993ca07873f5a4b3, type: 2}
+    _secondReagent: {fileID: 11400000, guid: e66b688a5f09bfb49998aa2e17b40e8e, type: 2}
+    _product: 'Na2O + HCl '
+    _productEnvironment: 2
+  - _firstReagent: {fileID: 11400000, guid: 271e792dc91a27c4e805d41bf4c1428b, type: 2}
+    _secondReagent: {fileID: 11400000, guid: 5da76782db1584e4c93fd43e1fb91aa0, type: 2}
+    _product: 'Cu(HSO4)2 '
+    _productEnvironment: 2
+  - _firstReagent: {fileID: 11400000, guid: 271e792dc91a27c4e805d41bf4c1428b, type: 2}
+    _secondReagent: {fileID: 11400000, guid: e66b688a5f09bfb49998aa2e17b40e8e, type: 2}
+    _product: "CuCl2 + Na2SO4 \u200B  "
+    _productEnvironment: 2
+  - _firstReagent: {fileID: 11400000, guid: 5da76782db1584e4c93fd43e1fb91aa0, type: 2}
+    _secondReagent: {fileID: 11400000, guid: e66b688a5f09bfb49998aa2e17b40e8e, type: 2}
+    _product: NaHSO4 + HCl
+    _productEnvironment: 2
