@@ -76,7 +76,7 @@ public class TestTubeRotator : MonoBehaviour
 
     private bool CheckPouringRadius()
     {
-        float distance = Vector3.Distance(_currentTestTube.transform.localPosition, _currentPourZone.transform.position);
+        float distance = Vector3.Distance(_currentTestTube.transform.position, _currentPourZone.transform.position);
         return distance <= _pouringRadius;
     }
 
